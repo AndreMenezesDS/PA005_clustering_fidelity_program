@@ -1,0 +1,20 @@
+PA005 Data Treatment notes:
+
+1. Descartar entradas com price=0.0
+2. Descartar entradas com CustomerID = NaN
+3. Descartar entradas com Quantities = 0
+4. Alterar sinal de entradas com quantities < 0
+5. Descartar Entradas com Preço negativo (-11062.06)
+6. Verificar entradas invoice-date = Cxxxxx -> apresentam sempre valores negativos para quantidade (Devolutiva?)
+7. Verificar Simetria entre entradas (80995, 74215, 3114)
+
+
+
+Feature Creation Ideas 
+
+1. Client entries score (Quantidade de entradas por customer ID)
+2. Client Longevity score (Diferença entre primeira e ultima compra por Customer ID)
+
+
+
+
