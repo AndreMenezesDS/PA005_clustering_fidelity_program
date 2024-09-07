@@ -91,7 +91,7 @@ Esse conjunto de dados contém inicialmente informações de cadastro de **54190
 ## 4.2 Descrição dos Atributos
 
 
-<div align="center">
+<div style="text-align: center;">
 
         | Atributos             | Significado|
         | ----------------------------- | ------------------------------------------------- |
@@ -413,7 +413,7 @@ Garantido o funcionamento local, foi feita a implementação de cada funcionalid
     
         Esta tabela foi então salva em um banco de dados para aplicação em uma ferramenta de visualização
 
-                *Diferenças da versão em Nuvem*: Agora o notebook é alimentado de um dispositivo de armazenamento externo (Amazon S3) que guarda a database .csv, bem como também efetua o salvamento da serialização de novas features em produção diretamente no mesmo dispositivo. Notar que a task de sincronização de execução do projeto não mais é feita localmente.
+        *Diferenças da versão em Nuvem*: Agora o notebook é alimentado de um dispositivo de armazenamento externo (Amazon S3) que guarda a database .csv, bem como também efetua o salvamento da serialização de novas features em produção diretamente no mesmo dispositivo. Notar que a task de sincronização de execução do projeto não mais é feita localmente.
     
     - **Git (Repositório Local)** → Versionador de código, responsável por manter salvo localmente os estados dos arquivos de projeto (notebook) em um repositório local.
     - **Github (Repositório Remoto)** → Repositório remoto online, atualizado conforme as alterações feitas localmente via git, viabilizando a divulgação do projeto e atualizações de seu funcionamento para aplicações em nuvem.
