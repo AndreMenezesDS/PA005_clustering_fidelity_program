@@ -93,16 +93,16 @@ Esse conjunto de dados contém inicialmente informações de cadastro de **54190
 
 <div style="text-align: center;">
 
-        | Atributos             | Significado|
-        | ----------------------------- | ------------------------------------------------- |
-        | InvoiceNo                     | Identificador único de cada transação             |
-        | StockCode                     | Código de identificação do item comprado          |
-        | Description                   | Nome e Descrição do item comprado                 |
-        | Quantity                      | Quantidade adquirida do item comprado             |
-        | InvoiceDate                   | O dia em que a transação ocorreu                  |
-        | UnitPrice                     | Preço unitário do produto comprado                |
-        | CustomerID                    | identificador único do cliente comprador          |
-        | Country                       | País onde foi realizada a transação               |
+| Atributos             | Significado|
+| ----------------------------- | ------------------------------------------------- |
+| InvoiceNo                     | Identificador único de cada transação             |
+| StockCode                     | Código de identificação do item comprado          |
+| Description                   | Nome e Descrição do item comprado                 |
+| Quantity                      | Quantidade adquirida do item comprado             |
+| InvoiceDate                   | O dia em que a transação ocorreu                  |
+| UnitPrice                     | Preço unitário do produto comprado                |
+| CustomerID                    | identificador único do cliente comprador          |
+| Country                       | País onde foi realizada a transação               |
 
 
 </div>
